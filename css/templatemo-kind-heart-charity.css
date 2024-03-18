@@ -530,7 +530,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  background: #13888d;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -553,6 +553,10 @@ strong {
   line-height: inherit;
   margin-right: 15px;
 }
+/* .site-header {
+  background-color: #13888d;
+} */
+
 
 
 /*---------------------------------------
@@ -575,9 +579,9 @@ strong {
 }
 
 #hero-slide .carousel-caption {
-  background: var(--white-color);
+  background:#C7622C;
   clip-path: polygon(100% 100%, 100% 150px, 0 100%);
-  color: var(--secondary-color);
+  color: black;
   top: 1px;
   bottom: -1px;
   right: 0;
@@ -614,7 +618,7 @@ strong {
 
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
-  background-color: var(--secondary-color);
+  background-color: #13888d;
   border-radius: var(--border-radius-large);
   background-size: 60% 60%;
   width: 80px;
@@ -625,7 +629,7 @@ strong {
 
 .carousel-control-next-icon:hover, 
 .carousel-control-prev-icon:hover {
-  background-color: var(--primary-color);
+  background-color: #13888d;
 }
 
 
