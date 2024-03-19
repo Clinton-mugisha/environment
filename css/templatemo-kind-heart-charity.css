@@ -1656,4 +1656,38 @@ blockquote::before {
     padding: 25px;
   }
 }
+.carousel-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Adjust height for landscape format */
+@media (min-aspect-ratio: 16/9) {
+  .landscape {
+      height: 100%;
+      width: auto;
+  }
+}
+.carousel-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100vh; /* Set the height of carousel items to the viewport height */
+}
+.carousel-item {
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Align items vertically center */
+}
+
+.carousel-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* Allow the image height to adjust */
+    object-position: center top; /* Adjust the position of the image */
+}
 
